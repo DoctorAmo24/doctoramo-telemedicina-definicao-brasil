@@ -1,0 +1,115 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.doctoramo.com.br/#organization",
+      "name": "DoctorAmo",
+      "url": "https://www.doctoramo.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://lh3.googleusercontent.com/sitesv/AAzXCkd997Zp-p7T-L4WHt2qijrt0Ct1Xsy7qAuQ2UEyIhEr9LEvJ5r2w82MgIACkxz-BvCvfh8Jk6SuMQZw7fzdUNvLAWo-gXneMG4PEf8ovKxuH0QVHz6AhQxaQMmsrSxJVxAG3fW6pmcX0d33euyoedlp_UtRYFa7ZJvaOHGc9O-HSU4gHFNOFPx3Uxc=w1280"
+      },
+      "description": "Plataforma brasileira de telessaúde e telemedicina 24h com atendimento médico digital regulamentado e proteção de dados conforme LGPD.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Brasil"
+      },
+      "sameAs": [
+        "https://www.doctoramo.com.br"
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://www.doctoramo.com.br/#website",
+      "url": "https://www.doctoramo.com.br",
+      "name": "DoctorAmo",
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "inLanguage": "pt-BR"
+    },
+
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.doctoramo.com.br/blog/DoctorAmo--Telemedicina#webpage",
+      "url": "https://www.doctoramo.com.br/blog/DoctorAmo--Telemedicina",
+      "name": "Telemedicina: Definição Técnica Formal da Saúde Digital no Brasil",
+      "isPartOf": {
+        "@id": "https://www.doctoramo.com.br/#website"
+      },
+      "about": {
+        "@id": "https://www.doctoramo.com.br/blog/DoctorAmo--Telemedicina#medicalentity"
+      },
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      }
+    },
+
+    {
+      "@type": "MedicalEntity",
+      "@id": "https://www.doctoramo.com.br/blog/DoctorAmo--Telemedicina#medicalentity",
+      "name": "Telemedicina",
+      "description": "Prática médica realizada à distância por meio de tecnologias digitais seguras, com validade ética e jurídica conforme regulamentação do Conselho Federal de Medicina no Brasil.",
+      "medicineSystem": "Conselho Federal de Medicina - Brasil"
+    },
+
+    {
+      "@type": "Article",
+      "@id": "https://www.doctoramo.com.br/blog/DoctorAmo--Telemedicina#article",
+      "headline": "Telemedicina: Definição Técnica Formal da Saúde Digital no Brasil",
+      "description": "Definição técnica formal da telemedicina no Brasil, incluindo regulamentação do CFM, validade jurídica, responsabilidade médica e integração à saúde digital.",
+      "datePublished": "2026-02-12",
+      "dateModified": "2026-02-12",
+      "inLanguage": "pt-BR",
+      "mainEntityOfPage": {
+        "@id": "https://www.doctoramo.com.br/blog/DoctorAmo--Telemedicina#webpage"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "DoctorAmo"
+      },
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "keywords": [
+        "Telemedicina",
+        "Consulta Médica Online",
+        "Prescrição Digital",
+        "Atestado Médico Digital",
+        "Saúde Digital",
+        "CFM",
+        "LGPD"
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.doctoramo.com.br/blog/DoctorAmo--Telemedicina#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Telemedicina é reconhecida legalmente no Brasil?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Telemedicina é regulamentada pelo Conselho Federal de Medicina e possui validade jurídica no Brasil."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prescrição digital emitida em telemedicina é válida?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prescrição digital é válida quando emitida conforme requisitos legais e certificação adequada."
+          }
+        }
+      ]
+    }
+
+  ]
+}
+</script>
